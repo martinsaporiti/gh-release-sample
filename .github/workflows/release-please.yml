@@ -2,9 +2,8 @@ name: release-please
 
 on: 
   push:
-   branches:
-      - '*'
-      - '!main'
+   branches: [ main ]
+
 
 jobs:
   release:
@@ -15,7 +14,6 @@ jobs:
         with:
           release-type: go
           package-name: github.com/martinsaporiti/gh-release-sample
-          command: release-pr
       - name: tag major and minor versions
         if: ${{ steps.release.outputs.release_created }}
         run: |
