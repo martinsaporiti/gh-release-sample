@@ -7,12 +7,12 @@ name: deploy-release
 
 on:
   push:
-    branches:
-      - "main"
+    branches: ['staging']
+
 jobs:
   deploy:
-    if:  startsWith(github.head_ref, 'release-please')
+    # if:  startsWith(github.head_ref, 'release-please')
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo The PR was ${{github.head_ref}} deployed
+        echo The PR was ${{github.head_ref}}
