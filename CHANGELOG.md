@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/martinsaporiti/gh-release-sample/compare/v0.6.0...v0.6.1) (2022-10-12)
+
+
+### Bug Fixes
+
+* change on condition ([9b6e7f8](https://github.com/martinsaporiti/gh-release-sample/commit/9b6e7f86d59d2dede8042f1e5dd877b0e6b472e4))
+
 ## [0.6.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.5.2...v0.6.0) (2022-10-12)
 
 
