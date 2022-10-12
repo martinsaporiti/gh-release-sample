@@ -2,8 +2,8 @@ name: deploy-release
 
 on:
   pull_request:
-    branches:
-      - 'release-please**'
+    types:
+      - "closed"
   
 jobs:
   deploy:
