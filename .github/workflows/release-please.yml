@@ -23,3 +23,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
           echo Deployed!
+      
+      - name: call-deploy
+        if: ${{ steps.release.outputs.release_created }}
+        uses: ./.github/workflows/deploy.yml
