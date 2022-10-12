@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.15.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.14.0...v0.15.0) (2022-10-12)
+
+
+### Features
+
+* back ([5ed70ad](https://github.com/martinsaporiti/gh-release-sample/commit/5ed70ad91905e10f590103be587d19981a717da8))
+* github token ([514085f](https://github.com/martinsaporiti/gh-release-sample/commit/514085f0909e24e06254d529e418f5bc5ba6f6b4))
+
+
+### Bug Fixes
+
+* use PAT ([5259a86](https://github.com/martinsaporiti/gh-release-sample/commit/5259a8654c158d8e68578afe4ae1e80e74e55aab))
+* use personal ([9a4e17a](https://github.com/martinsaporiti/gh-release-sample/commit/9a4e17a8a0b953e202ac9b2b17fb43214f2b254b))
+
 ## [0.14.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.13.7...v0.14.0) (2022-10-12)
 
 
