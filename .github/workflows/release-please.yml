@@ -4,13 +4,19 @@ on:
   push:
    branches: [ main ]
 
-
 jobs:
   release:
     runs-on: ubuntu-latest
+    outputs:
+        release_created: ${{ steps.release.release_created }}
     steps:
       - name: release please
+        id: release
         uses: google-github-actions/release-please-action@v3
         with:
           release-type: go
           package-name: gh-release-sample
+      - run: |
+          echo ${{ release.release_created }}
+
+      
