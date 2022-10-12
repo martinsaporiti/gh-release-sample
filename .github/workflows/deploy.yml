@@ -1,11 +1,10 @@
 name: deploy-release
 
 on:
-  pull_request_target:
+  pull_request:
     branches:
       - 'release-please**'
-
-
+  
 jobs:
   deploy:
     if:  startsWith(github.head_ref, 'release-please')
