@@ -17,6 +17,6 @@ jobs:
           release-type: go
           package-name: gh-release-sample
       - run: |
-          echo ${{ release.release_created }}
+          echo ${{ steps.release.release_created }}
 
       
