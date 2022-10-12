@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.5](https://github.com/martinsaporiti/gh-release-sample/compare/v0.13.4...v0.13.5) (2022-10-12)
+
+
+### Bug Fixes
+
+* on release ([31afe0a](https://github.com/martinsaporiti/gh-release-sample/commit/31afe0a3efb1c431013e4b967899853b329b07de))
+
 ## [0.13.4](https://github.com/martinsaporiti/gh-release-sample/compare/v0.13.3...v0.13.4) (2022-10-12)
 
 
