@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.6.2...v0.7.0) (2022-10-12)
+
+
+### Features
+
+* add new option ([d0422a5](https://github.com/martinsaporiti/gh-release-sample/commit/d0422a507e786fd4715971768a89125fcd3065b5))
+
 ## [0.6.2](https://github.com/martinsaporiti/gh-release-sample/compare/v0.6.1...v0.6.2) (2022-10-12)
 
 
