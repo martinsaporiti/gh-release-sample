@@ -3,6 +3,10 @@ name: release-please
 on: 
   push:
    branches: [ main ]
+  
+  workflow_call:
+    outputs:
+        release_created: ${{ jobs.release.outputs.release_created }}
 
 jobs:
   release:
