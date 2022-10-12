@@ -2,8 +2,8 @@ name: release-please
 
 on: 
   push:
-    tags:
-    - '*'
+   branches:
+      - main
 
 jobs:
   release:
@@ -15,8 +15,3 @@ jobs:
           release-type: go
           package-name: github.com/martinsaporiti/gh-release-sample
           command: release-pr
-
-
-
-
-
