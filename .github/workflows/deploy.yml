@@ -18,7 +18,8 @@ name: deploy-release
 #     branches: ['staging']
 
 on:
-  workflow_call:
+  workflow_dispatch:
+    
     
 
 jobs:
