@@ -1,12 +1,12 @@
 name: deploy-release
 
 
-on:
-  workflow_run:
-    workflows: ["release-please"]
-    branches: [main]
-    types:
-      - completed
+# on:
+#   workflow_run:
+#     workflows: ["release-please"]
+#     branches: [main]
+#     types:
+#       - completed
 
 # on:
 #   pull_request:
@@ -16,6 +16,10 @@ on:
 # on:
 #   push:
 #     branches: ['staging']
+
+on:
+  workflow_call:
+    
 
 jobs:
   deploy:
