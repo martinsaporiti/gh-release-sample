@@ -6,7 +6,7 @@ on:
     - '*'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: ${{steps.changelog.outputs.changelog}}
+          body: ${{ steps.changelog.outputs.changelog }}
           draft: false
           prerelease: false
 
