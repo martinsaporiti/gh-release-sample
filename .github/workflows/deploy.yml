@@ -27,4 +27,5 @@ jobs:
         echo ${{ github.event.workflow_run.release_created }}
         echo ${{ github.event.workflow_run.conclusion }}
         echo ${{ github.event.workflow_run.conclusion.release_created }}
+        echo ${{ github.event.workflow_run.outputs.release_created }}
         echo The PR was ${{github.head_ref}}
