@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.3.0...v0.4.0) (2022-10-12)
+
+
+### Features
+
+* add deploy workflow ([86bc3ea](https://github.com/martinsaporiti/gh-release-sample/commit/86bc3ea3dcf22edc959ad9844fb8073adb7f1818))
+
 ## [0.3.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.2.0...v0.3.0) (2022-10-12)
 
 
