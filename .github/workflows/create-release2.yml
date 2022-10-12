@@ -2,8 +2,8 @@ name: release
 
 on: 
   push:
-    branches:
-    - 'develop'
+    tags:
+    - '*'
 
 jobs:
   release:
@@ -13,11 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: "Generate release changelog"
+      - name: Generate changelog
         id: changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.3
+        uses: jaywcjlove/changelog-generator@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Release
         id: create_release
