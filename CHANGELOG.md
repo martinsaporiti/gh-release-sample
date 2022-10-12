@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.4](https://github.com/martinsaporiti/gh-release-sample/compare/v0.13.3...v0.13.4) (2022-10-12)
+
+
+### Bug Fixes
+
+* on workflow triggered ([2906556](https://github.com/martinsaporiti/gh-release-sample/commit/29065567fbc426e500d854d23a5dbbb326dd0720))
+
 ## [0.13.3](https://github.com/martinsaporiti/gh-release-sample/compare/v0.13.2...v0.13.3) (2022-10-12)
 
 
