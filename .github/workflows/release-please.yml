@@ -14,7 +14,7 @@ jobs:
         id: release
         uses: google-github-actions/release-please-action@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.Personal }}
           release-type: go
           package-name: gh-release-sample
       - run: |
