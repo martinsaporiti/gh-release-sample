@@ -13,7 +13,8 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         with:
           release-type: go
-          package-name: '*'
+          package-name: github.com/martinsaporiti/gh-release-sample
+          command: release-pr
 
 
 
