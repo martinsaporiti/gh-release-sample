@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1](https://github.com/martinsaporiti/gh-release-sample/compare/v0.7.0...v0.7.1) (2022-10-12)
+
+
+### Bug Fixes
+
+* change default branch ([a8eca0d](https://github.com/martinsaporiti/gh-release-sample/commit/a8eca0d876c36c9f038bc5e767f5eee158a21ad4))
+* chnage default branch to the correct file ([b50dfd9](https://github.com/martinsaporiti/gh-release-sample/commit/b50dfd995734784e638004070054057e845bc739))
+
 ## [0.7.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.6.2...v0.7.0) (2022-10-12)
 
 
