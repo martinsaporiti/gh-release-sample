@@ -1,0 +1,21 @@
+name: release-please
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: release please
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: go
+          package-name: '*'
+
+
+
+
+
