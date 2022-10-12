@@ -14,9 +14,13 @@ name: deploy-release
 #       - "closed"
     
 
-on:
-  release:
-    types: [released]
+on: 
+  push:
+    tags:
+    - '*'
+  create:
+    tags:
+    - '**'
 
 jobs:
   deploy:
