@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.8.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.7.1...v0.8.0) (2022-10-12)
+
+
+### Features
+
+* add more tests ([857e051](https://github.com/martinsaporiti/gh-release-sample/commit/857e051fe350119b23b6ceb51efb29516b03306a))
+* add test14 ([f378b37](https://github.com/martinsaporiti/gh-release-sample/commit/f378b37699f291c1354f41c6859cc4e151c22aa6))
+
+
+### Bug Fixes
+
+* rollback workflow ([11579c2](https://github.com/martinsaporiti/gh-release-sample/commit/11579c29651bba34ca29aaf5b76091d760fdd650))
+
 ## [0.7.1](https://github.com/martinsaporiti/gh-release-sample/compare/v0.7.0...v0.7.1) (2022-10-12)
 
 
