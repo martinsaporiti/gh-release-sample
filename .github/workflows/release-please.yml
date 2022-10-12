@@ -1,0 +1,17 @@
+name: release-please
+
+on: 
+  push:
+   branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: release please
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: go
+          package-name: github.com/martinsaporiti/gh-release-sample
+          command: release-pr
