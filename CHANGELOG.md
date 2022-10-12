@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.5.2...v0.6.0) (2022-10-12)
+
+
+### Features
+
+* add new condition ([85b9e41](https://github.com/martinsaporiti/gh-release-sample/commit/85b9e41a00faa2ebdc2646029ccaef6305752492))
+
 ## [0.5.2](https://github.com/martinsaporiti/gh-release-sample/compare/v0.5.1...v0.5.2) (2022-10-12)
 
 
