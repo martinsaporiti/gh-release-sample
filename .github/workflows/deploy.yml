@@ -12,15 +12,11 @@ name: deploy-release
 #   pull_request:
 #     types:
 #       - "closed"
-
-# on:
-#   push:
-#     branches: ['staging']
+    
 
 on:
-  workflow_dispatch:
-    
-    
+  release:
+    types: [published]
 
 jobs:
   deploy:
