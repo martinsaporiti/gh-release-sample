@@ -3,10 +3,6 @@ name: release-please
 on: 
   push:
    branches: [ main ]
-  
-  workflow_call:
-    outputs:
-        release_created: ${{ jobs.release.outputs.release_created }}
 
 jobs:
   release:
@@ -23,4 +19,7 @@ jobs:
       - run: |
           echo ${{ steps.release.outputs.release_created }}
 
-      
+      - name: deploy
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          echo Deployed!
