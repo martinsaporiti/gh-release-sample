@@ -25,7 +25,8 @@ jobs:
         run: |
           echo Deployed!
 
-      - name: Repository Dispatch
+      - name: Dispatch Release Created
+        if: ${{ steps.release.outputs.release_created }}
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.actions  }}

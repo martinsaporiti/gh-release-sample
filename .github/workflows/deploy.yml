@@ -8,21 +8,21 @@ name: deploy-release
 #     types:
 #       - completed
 
-on:
-  pull_request:
-    types:
-      - "closed"
+# on:
+#   pull_request:
+#     types:
+#       - "closed"
     
 
-jobs:
-  deploy:
-    if:  startsWith(github.head_ref, 'release-please') && github.event.pull_request.merged == true
-    # if: ${{ github.event.workflow_run.release_created }}
-    runs-on: ubuntu-latest
-    steps:
-    - run: |
-        echo ${{ github.event.workflow_run.release_created }}
-        echo ${{ github.event.workflow_run.conclusion }}
-        echo ${{ github.event.workflow_run.conclusion.release_created }}
-        echo ${{ github.event.workflow_run.outputs.release_created }}
-        echo The PR was ${{github.head_ref}}
+# jobs:
+#   deploy:
+#     if:  startsWith(github.head_ref, 'release-please') && github.event.pull_request.merged == true
+#     # if: ${{ github.event.workflow_run.release_created }}
+#     runs-on: ubuntu-latest
+#     steps:
+#     - run: |
+#         echo ${{ github.event.workflow_run.release_created }}
+#         echo ${{ github.event.workflow_run.conclusion }}
+#         echo ${{ github.event.workflow_run.conclusion.release_created }}
+#         echo ${{ github.event.workflow_run.outputs.release_created }}
+#         echo The PR was ${{github.head_ref}}
