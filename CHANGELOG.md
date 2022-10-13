@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.15.0...v0.16.0) (2022-10-13)
+
+
+### Features
+
+* add dispatch ([b73a2c5](https://github.com/martinsaporiti/gh-release-sample/commit/b73a2c50f96c1a4b583cc24a5d98ca6936cb8fdb))
+
+
+### Bug Fixes
+
+* remove deploy ([a4e007a](https://github.com/martinsaporiti/gh-release-sample/commit/a4e007a3c4a60de2ed530ad5bbbcd108efe37be8))
+
 ## [0.15.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.14.0...v0.15.0) (2022-10-12)
 
 
