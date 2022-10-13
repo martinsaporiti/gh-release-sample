@@ -1,0 +1,12 @@
+name: deploy-release-dispatch
+
+on:
+  repository_dispatch:
+    types: [release-created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo Deployed!

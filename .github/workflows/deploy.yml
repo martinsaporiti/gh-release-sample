@@ -8,19 +8,11 @@ name: deploy-release
 #     types:
 #       - completed
 
-# on:
-#   pull_request:
-#     types:
-#       - "closed"
+on:
+  pull_request:
+    types:
+      - "closed"
     
-
-on: 
-  push:
-    tags:
-    - '*'
-  create:
-    tags:
-    - '**'
 
 jobs:
   deploy:
