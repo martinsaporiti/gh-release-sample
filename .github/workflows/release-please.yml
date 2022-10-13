@@ -24,3 +24,11 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
           echo Deployed!
+
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.actions  }}
+          repository: martinsaporiti/gh-release-sample
+          event-type: release-created
+          client-payload: '{}'
