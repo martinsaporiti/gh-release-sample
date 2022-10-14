@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: go
           package-name: gh-release-sample
+          release-as: 0.18.1
       - run: |
           echo ${{ steps.release.outputs.release_created }}
 
