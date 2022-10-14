@@ -1,7 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
 
+	fmt.Println(next(1))
 }
 
 // next returns the next number
