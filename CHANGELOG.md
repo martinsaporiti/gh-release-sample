@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.21.1](https://github.com/martinsaporiti/gh-release-sample/compare/v0.21.0...v0.21.1) (2022-10-14)
+
+
+### Bug Fixes
+
+* tests ([1dbf069](https://github.com/martinsaporiti/gh-release-sample/commit/1dbf0693f10092cb39489f3ea7ba8c78d3f51db7))
+
 ## [0.21.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.20.0...v0.21.0) (2022-10-14)
 
 
