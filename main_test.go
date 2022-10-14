@@ -14,10 +14,6 @@ func TestSum(t *testing.T) {
 
 	tests := []test{
 		{1, 2},
-		{1, 2},
-		{1, 2},
-		{1, 2},
-		{1, 2},
 	}
 
 	for _, tc := range tests {
