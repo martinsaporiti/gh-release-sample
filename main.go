@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
-
-	fmt.Println(next(1))
+	fmt.Println(next(2))
 }
 
 // next returns the next number
