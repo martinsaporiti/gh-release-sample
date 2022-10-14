@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.24.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.23.0...v0.24.0) (2022-10-14)
+
+
+### Features
+
+* add a second test ([07280ba](https://github.com/martinsaporiti/gh-release-sample/commit/07280ba84148a5660daf4241bc1a870a60ccc254))
+* add only one test ([3ceccee](https://github.com/martinsaporiti/gh-release-sample/commit/3ceccee048f9cb482a42297854a010008d8f0d73))
+
 ## [0.23.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.22.0...v0.23.0) (2022-10-14)
 
 
