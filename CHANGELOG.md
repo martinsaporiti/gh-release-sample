@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.17.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.16.0...v0.17.0) (2022-10-14)
+
+
+### Features
+
+* add more test ([1384767](https://github.com/martinsaporiti/gh-release-sample/commit/13847671e0a4a5e375a2f48ded03fba903ceb1b3))
+* add print ([16c275a](https://github.com/martinsaporiti/gh-release-sample/commit/16c275a771c8e2a4a3122034d0394d45924eacc4))
+
 ## [0.16.0](https://github.com/martinsaporiti/gh-release-sample/compare/v0.15.0...v0.16.0) (2022-10-13)
 
 
