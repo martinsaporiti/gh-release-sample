@@ -1,0 +1,21 @@
+name: openpr
+
+on: 
+  push:
+    branches:
+    - 'develop'
+
+jobs:
+  openpr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Cloud - Update available list
+          title: Cloud - Update available list
+          body: Cloud - Update available list
+          base: ${{ github.ref }}
+          labels: automated-pr
+          branch: main
+          delete-branch: false
